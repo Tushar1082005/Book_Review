@@ -1,0 +1,72 @@
+body {
+    font-family: 'Merriweather', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.intro, .featured-reviews, .about {
+    margin-bottom: 2rem;
+}
+
+.review-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.review-card h3 {
+    margin: 0 0 0.5rem 0;
+}
+
+.review-card a.toggle {
+    text-decoration: none;
+    color: #0066cc;
+    cursor: pointer;
+}
+
+.review-card a.toggle:hover {
+    text-decoration: underline;
+}
+
+.review-detail {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-top: 1px solid #ccc;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
